@@ -1,3 +1,11 @@
+//This is a sorting algoruthm which finds the correct position and insert them in the correct position
+//How we do it?
+//Start from 1st index
+//Store it in key
+//Check all the number before 1st index which are greater to move one step ahead
+//After j reaches 0
+//insert key into that j + 1 place
+
 public:
     //Function to sort the array using insertion sort algorithm.
     void insertionSort(int arr[], int n)
